@@ -10,6 +10,7 @@ public class SpringJwtAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJwtAppApplication.class, args);
+		 System.out.println("Hello App");
 	}
 
 }
