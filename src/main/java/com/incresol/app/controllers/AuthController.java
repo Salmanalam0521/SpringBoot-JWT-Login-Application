@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.incresol.app.entities.User;
-import com.incresol.app.model.GenerateNewPassword;
-import com.incresol.app.model.HttpStatusResponse;
-import com.incresol.app.model.JwtRequest;
-import com.incresol.app.model.UserResponse;
+import com.incresol.app.models.GenerateNewPassword;
+import com.incresol.app.models.HttpStatusResponse;
+import com.incresol.app.models.JwtRequest;
+import com.incresol.app.models.UserResponse;
 import com.incresol.app.security.JwtHelper;
-import com.incresol.app.service.UserService;
+import com.incresol.app.services.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

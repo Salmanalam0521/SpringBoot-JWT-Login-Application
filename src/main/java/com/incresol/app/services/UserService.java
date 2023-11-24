@@ -1,4 +1,4 @@
-package com.incresol.app.service;
+package com.incresol.app.services;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -26,10 +26,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.incresol.app.entities.User;
-import com.incresol.app.model.GenerateNewPassword;
-import com.incresol.app.model.HttpStatusResponse;
-import com.incresol.app.model.UserResponse;
-import com.incresol.app.repository.UserRepository;
+import com.incresol.app.models.GenerateNewPassword;
+import com.incresol.app.models.HttpStatusResponse;
+import com.incresol.app.models.UserResponse;
+import com.incresol.app.repositories.UserRepository;
 import com.incresol.app.security.JwtHelper;
 
 import jakarta.servlet.http.HttpServletRequest;

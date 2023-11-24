@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.incresol.app.entities.User;
-import com.incresol.app.repository.UserRepository;
+import com.incresol.app.repositories.UserRepository;
 import com.incresol.app.security.JwtAuthenticationFilter;
-import com.incresol.app.service.UserService;
+import com.incresol.app.services.UserService;
 
 import jakarta.servlet.http.HttpServletResponse;
 

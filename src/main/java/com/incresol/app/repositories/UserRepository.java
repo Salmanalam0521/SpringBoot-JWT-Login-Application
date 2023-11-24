@@ -1,4 +1,4 @@
-package com.incresol.app.repository;
+package com.incresol.app.repositories;
 
 import java.time.LocalDateTime;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.incresol.app.model;
+package com.incresol.app.models;
 
 import lombok.Builder;
 

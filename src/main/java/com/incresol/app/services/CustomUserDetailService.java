@@ -1,4 +1,4 @@
-package com.incresol.app.service;
+package com.incresol.app.services;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
@@ -20,7 +20,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.incresol.app.entities.User;
 import com.incresol.app.exception.UserDisabledException;
-import com.incresol.app.repository.UserRepository;
+import com.incresol.app.repositories.UserRepository;
 
 @Service
 public class CustomUserDetailService implements UserDetailsService, UserDetails {
