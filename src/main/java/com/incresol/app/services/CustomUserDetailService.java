@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:src/main/java/com/incresol/app/services/CustomUserDetailService.java
 package com.incresol.app.services;
+========
+package com.incresol.app.service;
+>>>>>>>> d4352a62435660cbfa165f4bddcb64e23b913196:src/main/java/com/incresol/app/service/CustomUserDetailService.java
 
 import java.time.LocalDateTime;
 import java.util.Collection;
@@ -20,7 +24,11 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.incresol.app.entities.User;
 import com.incresol.app.exception.UserDisabledException;
+<<<<<<<< HEAD:src/main/java/com/incresol/app/services/CustomUserDetailService.java
 import com.incresol.app.repositories.UserRepository;
+========
+import com.incresol.app.repository.UserRepository;
+>>>>>>>> d4352a62435660cbfa165f4bddcb64e23b913196:src/main/java/com/incresol/app/service/CustomUserDetailService.java
 
 @Service
 public class CustomUserDetailService implements UserDetailsService, UserDetails {

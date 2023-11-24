@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:src/main/java/com/incresol/app/services/UserService.java
 package com.incresol.app.services;
+========
+package com.incresol.app.service;
+>>>>>>>> d4352a62435660cbfa165f4bddcb64e23b913196:src/main/java/com/incresol/app/service/UserService.java
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -26,10 +30,18 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.incresol.app.entities.User;
+<<<<<<<< HEAD:src/main/java/com/incresol/app/services/UserService.java
 import com.incresol.app.models.GenerateNewPassword;
 import com.incresol.app.models.HttpStatusResponse;
 import com.incresol.app.models.UserResponse;
 import com.incresol.app.repositories.UserRepository;
+========
+import com.incresol.app.exception.UserDisabledException;
+import com.incresol.app.models.GenerateNewPassword;
+import com.incresol.app.models.HttpStatusResponse;
+import com.incresol.app.models.UserResponse;
+import com.incresol.app.repository.UserRepository;
+>>>>>>>> d4352a62435660cbfa165f4bddcb64e23b913196:src/main/java/com/incresol/app/service/UserService.java
 import com.incresol.app.security.JwtHelper;
 
 import jakarta.servlet.http.HttpServletRequest;
